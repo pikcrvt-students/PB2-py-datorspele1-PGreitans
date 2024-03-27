@@ -1,8 +1,7 @@
-# Datorspele animacija
-## Datorspele animacija uzdevuma formulejums
-### Datorspele jautajumi
-1. Saja datorspele bus jaatbild uz jautajumiem.
-2. Lietotajam programma jautas 5 jautajumus,  ja atbilde bus pareiza tad lietotajam programma uzdos nakamo jautajumu.
-3. Lietotajam ir jaatbild uz jautajumiem precizi, so jautajumu atbilde bus ne vairak pa 2 vardiem.
-4. Pa katru pareizo atbildi lietotajs sanem vienu punktu, bet ja atbilde nav pareize tad spele sakas no jauna. 
-4. Speles beigas uz ekrana paradis ieguto punktu skaitu / rezultats.
+# Datorspēle animācija
+## Datorspēle animēcija uzdevuma formulējums
+### Datorspēle *Jautājumi*
+1. Šajā datorspēle leitotājam vajadzēs atbildēt uz programmas uzdotajiem jautājumiem.
+2. Lietotājam programma jautās 3 jautājumus par datoru,  ja atbilde būs pareiza tad +1 punkts.
+3. Lietotājam uz jautājumiem ir jāatbild precīzi, šo jautājumu atbilde būs viens vārds.
+4. Spēles beigās uz ekrāna parādīs iegūto punktu skaitu.
