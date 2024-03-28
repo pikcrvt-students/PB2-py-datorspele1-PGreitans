@@ -1,8 +1,8 @@
 from time import sleep
 from os import system
 
-print("Spēle Jums uzdos 3 jautājumus.")
-print("!!!Atbilde sastāv no viena vārda un šis vards ir jauzraksta precīzi / pareizi!!!")
+print("Spēle 'Jautājumi par datoru' Jums uzdos 3 jautājumus.")
+print("!!!Atbilde sastāv no viena vārda un šis vards ir jauzraksta precīzi / pareizi un bez saīsinājumiem (pilns vārds)!!!")
 print("!!!Atbildes raksti ar mazajiem burtiem!!!")
 print("Par katru pareizo atbildi +1 punkts")
 print("")
@@ -10,7 +10,9 @@ print("")
 punkti = 0
 
 print("1. Kas ir CPU?")
+print("")
 pirmais = input("Tava atbilde: ")
+print("")
 
 if pirmais == "procesors":
     punkti = punkti + 1
@@ -53,6 +55,9 @@ if pirmais == "procesors":
     sleep(0.2)
     print("")
     sleep(0.2)
+    print("")
+    sleep(0.2)
+    print("Uz jautājumu atbildēji pareizi!!!")
 else:
     print("                             (####            /####,                            ")
     sleep(0.2)
@@ -77,10 +82,15 @@ else:
     print("                             /####             ####                             ")
     sleep(0.2)
     print("")
+    sleep(0.2)
     print("Uz jautājumu atbildēji nepareizi!!!")
 
-print("2. Kā sauc vienību, kas mēra datora ātrumu?")
+sleep(0.5)
+print("")
+print("2. Kā sauc vienību, kas mēra monitora ātrumu?")
+print("")
 otrais = input("Tava atbilde: ")
+print("")
     
 if otrais == "hertzi":
     punkti = punkti + 1
@@ -123,6 +133,9 @@ if otrais == "hertzi":
     sleep(0.2)
     print("")
     sleep(0.2)
+    print("")
+    sleep(0.2)
+    print("Uz jautājumu atbildēji pareizi!!!")
 else:
     print("                             (####            /####,                            ")
     sleep(0.2)
@@ -147,10 +160,15 @@ else:
     print("                             /####             ####                             ")
     sleep(0.2)
     print("")
+    sleep(0.2)
     print("Uz jautājumu atbildēji nepareizi!!!")
-    
-print("3. Kā sauc populārāko programmēšanas valodu, kura sākas uz burta 'p'?")
+
+sleep(0.5)
+print("")  
+print("3. Kā sauc populārāko programmēšanas valodu, kura sākas ar burta 'p'?")
+print("")
 tresais = input("Tava atbilde: ")
+print("")
 
 if tresais == "python":
     punkti = punkti + 1
@@ -193,6 +211,9 @@ if tresais == "python":
     sleep(0.2)
     print("")
     sleep(0.2)
+    print("")
+    sleep(0.2)
+    print("Uz jautājumu atbildēji pareizi!!!")
 else:
     print("                             (####            /####,                            ")
     sleep(0.2)
@@ -217,10 +238,13 @@ else:
     print("                             /####             ####                             ")
     sleep(0.2)
     print("")
+    sleep(0.2)
     print("Uz jautājumu atbildēji nepareizi!!!")
 
+sleep(0.5)
 print("")
-print("Tavi iegūtie punkti par šiem 3 jautājumiem:", punkti , "no 3")
+print("Apsveicu, tavi iegūtie punkti par šiem 3 jautājumiem:", punkti , "no 3")
+sleep(10.0)
 
     
 
