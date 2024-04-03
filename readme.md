@@ -1,5 +1,5 @@
 # Datorspēle animācija
-## Datorspēle animēcija uzdevuma formulējums
+## Datorspēle animācija uzdevuma formulējums
 ### Datorspēle *Jautājumi par datoru*
 1. Šajā datorspēle leitotājam vajadzēs atbildēt uz programmas uzdotajiem jautājumiem par datoru.
 2. Lietotājam programma jautās 3 jautājumus par datoru,  ja atbilde būs pareiza tad +1 punkts.
